@@ -1,6 +1,6 @@
-from math import log as ln
+from math import log as ln, pi
 
-stirling = lambda x: x * (ln(x) - 1) + (1.837877066409345483560 + ln(x)) * 0.5  # Formula de Stirling
+stirling = lambda x: x * (ln(x) - 1) + ln(2 * pi * x) * 0.5  # Formula de Stirling
 
 if __name__ == '__main__':
     N = input()
