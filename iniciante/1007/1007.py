@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    A, B, C, D = float(raw_input()), float(raw_input()), float(raw_input()), float(raw_input())
+    A, B, C, D = input(), input(), input(), input()
 
     deferenca = A * B - C * D
 
