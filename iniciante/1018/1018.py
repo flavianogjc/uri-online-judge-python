@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     money = input()
-    print("%d" % money)
+    print(money)
 
     n100 = money // 100  # Notas de R$ 100
     money %= 100
