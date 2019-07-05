@@ -8,4 +8,4 @@ Case 2:
 
 Case 3:
 143 dec
-10001111 bin
+10001111 bin 
