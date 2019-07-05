@@ -29,5 +29,5 @@ if __name__ == '__main__':
                     txt = " -> NUCK"
 
                 printf("%.5f%s\n" % (p, txt))
-        except:
+        except EOFError:
             break
