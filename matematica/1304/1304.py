@@ -20,5 +20,5 @@ if __name__ == '__main__':
                 printf(line[0] + ' %.2lf' % (deslocamento) + ' km\n')
 
             horas, minutos, segundos = Horas, Minutos, Segundos
-        except:
+        except EOFError:
             break
