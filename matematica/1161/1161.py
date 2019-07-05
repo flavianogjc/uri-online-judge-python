@@ -5,5 +5,5 @@ if __name__ == '__main__':
         try:
             n, m = map(int, raw_input().split())
             print(fat(n) + fat(m))
-        except:
+        except EOFError:
             break
