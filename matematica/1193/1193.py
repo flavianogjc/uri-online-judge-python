@@ -4,11 +4,11 @@ if __name__ == '__main__':
         num, base = raw_input().split()
 
         print("Case %d:" % i)
-        if (base == 'bin'):
+        if base == 'bin':
             num = int(num, 2)
             print("%d dec" % num)
             print("%s hex\n" % hex(num)[2:])
-        elif (base == 'dec'):
+        elif base == 'dec':
             num = int(num)
             print("%s hex" % hex(num)[2:])
             print ("%s bin\n" % bin(num)[2:])
