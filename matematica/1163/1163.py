@@ -13,7 +13,7 @@ printf = stdout.write
 pi = 3.14159  # rad
 g = 9.80665  # m/s**2
 if __name__ == '__main__':
-    while (True):
+    while True:
         try:
             h = float(raw_input())
             p1, p2 = map(int, raw_input().split())
@@ -23,7 +23,7 @@ if __name__ == '__main__':
                 ang, speed = map(float, raw_input().split())
 
                 p = pontoDeImpacto(h, speed, ang)
-                if (p1 <= p and p <= p2):
+                if p1 <= p and p <= p2:
                     txt = " -> DUCK"
                 else:
                     txt = " -> NUCK"
