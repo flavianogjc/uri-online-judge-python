@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    while (True):
+    while True:
         try:
             a, b = map(int, raw_input().split())
 
