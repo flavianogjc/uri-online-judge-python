@@ -1,7 +1,7 @@
 from fractions import gcd
 
 if __name__ == '__main__':
-    while (True):
+    while True:
         try:
             n = input()
             for i in xrange(n):
