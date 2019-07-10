@@ -16,7 +16,7 @@ if __name__ == '__main__':
         try:
             num, val = raw_input().split("-")
             num = num.replace(".", "")
-        except:
+        except EOFError:
             break
 
         if validator(num) == val:
