@@ -20,6 +20,6 @@ if __name__ == '__main__':
             break
 
         if validator(num) == val:
-            print "CPF valido"
+            print("CPF valido")
         else:
-            print "CPF invalido"
+            print("CPF invalido")
