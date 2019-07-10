@@ -10,6 +10,6 @@ if __name__ == '__main__':
     while True:
         try:
             n = input()
-            print iccanobiF[n]
+            print(iccanobiF[n])
         except EOFError:
             break
