@@ -5,6 +5,6 @@ if __name__ == '__main__':
     result = eval(expression)
 
     if result > N:
-        print "OVERFLOW"
+        print("OVERFLOW")
     else:
-        print "OK"
+        print("OK")
