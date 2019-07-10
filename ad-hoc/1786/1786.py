@@ -17,7 +17,7 @@ if __name__ == '__main__':
     while True:
         try:
             n = raw_input()
-        except:
+        except EOFError:
             break
 
         print(validator(n))
