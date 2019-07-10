@@ -32,5 +32,5 @@ if __name__ == '__main__':
                     if search(soma[i] + arc) and search(soma[i] + arc2):
                         triangulos += 1
                 printf("%d\n" % triangulos)
-        except:
+        except EOFError:
             break
