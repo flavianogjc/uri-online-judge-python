@@ -1,2 +1,2 @@
-# Soluções uri-online-judge com python2.7
+# Soluções uri-online-judge em python2.7
 
