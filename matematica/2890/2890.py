@@ -1,9 +1,9 @@
 # https://oeis.org/A006008
 
 if __name__ == '__main__':
-    while (True):
+    while True:
         n = input()
-        if (n == 0):
+        if n == 0:
             break
         n2 = n * n
         n4 = n2 * n2
