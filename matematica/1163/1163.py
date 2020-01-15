@@ -2,7 +2,7 @@ from sys import stdin, stdout
 from math import sin, cos, sqrt
 
 
-def pontoDeImpacto(h, v, a):
+def ponto_de_impacto(h, v, a):
     a *= pi / 180  # Pra radiano
 
     return v * cos(a) * (v * sin(a) + sqrt(v * v * sin(a) * sin(a) + 2.0 * h * g)) / g
@@ -22,7 +22,7 @@ if __name__ == '__main__':
             for i in xrange(n):
                 ang, speed = map(float, raw_input().split())
 
-                p = pontoDeImpacto(h, speed, ang)
+                p = ponto_de_impacto(h, speed, ang)
                 if p1 <= p and p <= p2:
                     txt = " -> DUCK"
                 else:

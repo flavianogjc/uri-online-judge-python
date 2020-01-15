@@ -11,7 +11,7 @@ if __name__ == '__main__':
         try:
             line = read_line().split()
             Horas, Minutos, Segundos = map(int, line[0].split(':'))
-            dt = (Horas * 3600 + Minutos * 60 + Segundos) - (horas * 3600 + minutos * 60 + segundos) # Em seg
+            dt = (Horas * 3600 + Minutos * 60 + Segundos) - (horas * 3600 + minutos * 60 + segundos)  # Em seg
             deslocamento += speed * dt
 
             if (len(line) == 2):
