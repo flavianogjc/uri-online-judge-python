@@ -1,4 +1,4 @@
-# Escrita Rápida, o Duelo
+# Elevador
 [Clique aqui para acessar o desafio](https://www.urionlinejudge.com.br/judge/pt/problems/view/2835)
 
 ## Execução
